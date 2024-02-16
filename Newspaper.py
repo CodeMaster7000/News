@@ -3,7 +3,7 @@ from tkinter import messagebox
 import requests
 import json
 
-type = 'sports'
+type = 'XXX' # Enter type here
 apiKey = 'YOUR_API_KEY_HERE'
 BASE_URL = f'http://newsapi.org/v2/top-headlines?country=in&category={type}&apiKey='+apiKey
 
